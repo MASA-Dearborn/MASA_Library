@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:CAN_Template-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -454,9 +453,6 @@ Wire Wire Line
 	4600 3600 4850 3600
 Wire Wire Line
 	4850 3600 4850 3350
-Connection ~ 4850 3350
-Wire Wire Line
-	4850 3350 4950 3350
 Wire Wire Line
 	4300 3100 4300 3250
 Wire Wire Line
@@ -464,8 +460,6 @@ Wire Wire Line
 Connection ~ 4300 3250
 Wire Wire Line
 	4300 3250 4450 3250
-Wire Wire Line
-	4750 3250 4950 3250
 NoConn ~ 2900 4050
 NoConn ~ 2900 4150
 NoConn ~ 2900 4250
@@ -497,4 +491,17 @@ Text Label 8150 7650 0    50   ~ 0
 12-21-19
 Text Label 7500 7500 0    50   ~ 0
 CAN_Transciever
+Wire Wire Line
+	4850 3350 4850 3250
+Wire Wire Line
+	4850 3250 4950 3250
+Connection ~ 4850 3350
+Wire Wire Line
+	4750 3250 4750 3200
+Wire Wire Line
+	4750 3200 4900 3200
+Wire Wire Line
+	4900 3200 4900 3350
+Wire Wire Line
+	4900 3350 4950 3350
 $EndSCHEMATC
