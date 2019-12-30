@@ -1,4 +1,4 @@
-(module Stack_Connector_2019_2020 (layer F.Cu) (tedit 5E0918A0)
+(module Stack_Connector_2019_2020 (layer F.Cu) (tedit 5E091EF5)
   (descr TFC-120-32-F-D-A-K-TR-1)
   (tags Connector)
   (fp_text reference J** (at 13.843 4.1275 180) (layer F.SilkS)
@@ -99,5 +99,15 @@
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
+  )
+  (model C:/Users/pr3de/Documents/MASA/MASA_Library/3D_Models/SFC-120-T2-F-D-A.stp
+    (offset (xyz 0 0 0.1))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+  (model C:/Users/pr3de/Documents/MASA/MASA_Library/3D_Models/TFC-120-32-F-D-A.stp
+    (offset (xyz 0 0 -1.88))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 0 0))
   )
 )
