@@ -5,4 +5,9 @@ D Molex 47219 Series 8 Way Horizontal Hinged Micro SD Memory Card Connector with
 F https://componentsearchengine.com/Datasheets/1/47219-2001.pdf
 $ENDCMP
 #
+$CMP AMCA31-2R450G-S1F-T3
+D ABRACON - AMCA31-2R450G-S1F-T3 - ANTENNA, CHIP, 2.45GHZ, 50 OHM, 1206
+F http://www.abracon.com/chip-antenna/AMCA31-2R450G-S1F-T.pdf
+$ENDCMP
+#
 #End Doc Library
