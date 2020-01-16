@@ -10,4 +10,8 @@ D ABRACON - AMCA31-2R450G-S1F-T3 - ANTENNA, CHIP, 2.45GHZ, 50 OHM, 1206
 F http://www.abracon.com/chip-antenna/AMCA31-2R450G-S1F-T.pdf
 $ENDCMP
 #
+$CMP MM8130-2600RA2
+F MURATA
+$ENDCMP
+#
 #End Doc Library
